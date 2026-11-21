@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "id": "boj-yamaguchi-2000",
+      "institution": "Bank of Japan",
+      "title": "Remarks by Yutaka Yamaguchi at the Bundesbank/BIS conference",
+      "date": "2000-09-28",
+      "url": "https://www2.boj.or.jp/archive/en/announcements/press/koen_2000/ko0009c.htm",
+      "scope": "日本资产泡沫、信用扩张与金融机构风险；事后政策演讲",
+      "reuse": "仅书目信息、链接与本项目原创摘要；不再分发原文全文"
+    },
+    {
+      "id": "jilpt-154-2013",
+      "institution": "Japan Institute for Labour Policy and Training",
+      "title": "Research Report No.154: Work and consciousness of 30s in Tokyo",
+      "date": "2013-03-21",
+      "url": "https://www.jil.go.jp/english/reports/jilpt_research/2013/no.154.html",
+      "scope": "2011年东京2000名30多岁受访者的问卷研究摘要；不是全日本或因果实验",
+      "reuse": "仅书目信息、链接与本项目原创摘要；不再分发原文全文"
+    },
+    {
+      "id": "fed-weinberg-2013",
+      "institution": "Federal Reserve History",
+      "title": "The Great Recession and Its Aftermath",
+      "author": "John Weinberg",
+      "date": "2013-11-22",
+      "url": "https://www.federalreservehistory.org/essays/great-recession-and-its-aftermath",
+      "scope": "美国2007–2009年衰退及截至2013年的回顾",
+      "reuse": "仅书目信息、链接与本项目原创摘要；不再分发图片或原文全文"
+    }
+  ]
+}

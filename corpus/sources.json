@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "provider": "zh.wikisource.org",
+  "api": "https://zh.wikisource.org/w/api.php",
+  "reuse_policy": "https://en.wikisource.org/wiki/Wikisource:Reusing_Wikisource_content",
+  "books": {
+    "shiji": {"title": "史记", "source_title": "史記", "author": "司马迁", "volumes": 130, "page_pattern": "史記/卷{volume:03d}", "kind": "history"},
+    "zizhitongjian": {"title": "资治通鉴", "source_title": "資治通鑑", "author": "司马光等", "volumes": 294, "page_pattern": "資治通鑑/卷{volume:03d}", "kind": "history"}
+  },
+  "text_license": "CC-BY-SA-4.0",
+  "license_note": "古代原作已进入公有领域；为尊重维基文库编校与标点贡献，本项目转录的选段保守按 CC BY-SA 4.0 分发，保留逐页链接与贡献者历史。代码及原创技能说明另适用 MIT。"
+}

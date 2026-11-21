@@ -1,0 +1,853 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "fanli-exit",
+      "title": "范蠡与大夫种：功成后的进退",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "fanli-exit",
+      "tags": [
+        "退出",
+        "职业选择",
+        "资源",
+        "权力差",
+        "信任"
+      ],
+      "aliases": [
+        "辞职",
+        "创业",
+        "功高震主",
+        "文种",
+        "范蠡"
+      ],
+      "situation": "任务完成后，功臣的价值与君主对其威胁的判断可能发生变化。",
+      "known_then": "据记载，范蠡认为勾践难以共安；这是人物判断，外貌描述不构成人格证据。",
+      "options": [
+        {
+          "action": "范蠡辞去并迁移",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "大夫种称病但仍留在越国",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "协商交接并准备其他生计",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "范蠡带轻宝与徒属离开；大夫种留越。",
+      "outcomes": [
+        {
+          "timeframe": "后来",
+          "finding": "文本记范蠡在齐经商并再度辞相；大夫种被赐剑自杀。",
+          "evidence_ids": [
+            "fanli-warning",
+            "fanli-resources"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "退出也会放弃职位、网络和确定收入；迁移与重新谋生需要成本。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "范蠡具有长期政务经验、可携财富、徒属和谋生能力。"
+      ],
+      "transfer_limits": [
+        "不能从两人的不同结局证明退出一定更优。普通人应先验证替代生计，不能据此裸辞。"
+      ],
+      "evidence_ids": [
+        "fanli-warning",
+        "fanli-resources"
+      ]
+    },
+    {
+      "id": "zhangliang-enough",
+      "title": "张良：界定足够，而非无限扩大所得",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "zhangliang-enough",
+      "tags": [
+        "退出",
+        "边界",
+        "资源",
+        "职业选择"
+      ],
+      "aliases": [
+        "张良",
+        "知足",
+        "功成身退"
+      ],
+      "situation": "封赏与进一步卷入权力事务之间存在取舍。",
+      "known_then": "张良已有谋划成绩、君主认可及受封机会。",
+      "options": [
+        {
+          "action": "自择齐地三万户",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "只愿封留",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "接受留侯封爵，后来表达退出世事的意愿。",
+      "outcomes": [
+        {
+          "timeframe": "即时",
+          "finding": "被封为留侯。",
+          "evidence_ids": [
+            "zhangliang-reward"
+          ]
+        },
+        {
+          "timeframe": "后来",
+          "finding": "文本记其表达从赤松子游的意愿，后八年卒。",
+          "evidence_ids": [
+            "zhangliang-later"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "放弃更大封邑也减少可获得的收益与影响力。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "已有地位与生活保障，能明确自己的目标。"
+      ],
+      "transfer_limits": [
+        "不把其后续寿终归因于少拿封赏；其并非从此不参与政务，不模仿辟谷养生。"
+      ],
+      "evidence_ids": [
+        "zhangliang-reward",
+        "zhangliang-later"
+      ]
+    },
+    {
+      "id": "linxiangru-cooperation",
+      "title": "蔺相如与廉颇：共同目标下的退让与修复",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "linxiangru-cooperation",
+      "tags": [
+        "关系",
+        "边界",
+        "信任",
+        "联盟",
+        "组织"
+      ],
+      "aliases": [
+        "感情",
+        "合作",
+        "朋友",
+        "恋爱",
+        "伴侣",
+        "争功"
+      ],
+      "situation": "两名关键成员因地位与功劳发生冲突。",
+      "known_then": "蔺相如已有对秦交涉的声望，认为双方都是赵国安全所需。",
+      "options": [
+        {
+          "action": "公开争位和对抗",
+          "basis": "analyst_inferred"
+        },
+        {
+          "action": "回避冲突并解释共同目标",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "蔺相如避让，廉颇听闻其理由后主动谢罪。",
+      "outcomes": [
+        {
+          "timeframe": "即时",
+          "finding": "两人相与欢，结为刎颈之交。",
+          "evidence_ids": [
+            "linxiangru-cooperation"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "退让可能被误解为软弱，也可能给追随者造成不满。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "有共同目标、传达解释的渠道，以及对方主动修复的可能。"
+      ],
+      "transfer_limits": [
+        "关系修复依赖双方回应；不能用于劝遭受持续贬低或控制的人无限忍让。"
+      ],
+      "evidence_ids": [
+        "linxiangru-cooperation"
+      ]
+    },
+    {
+      "id": "limu-conditions",
+      "title": "李牧：结果压力下，争取执行所需的条件",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "limu-conditions",
+      "tags": [
+        "资源",
+        "执行",
+        "组织",
+        "信任",
+        "权力差"
+      ],
+      "aliases": [
+        "项目延期",
+        "资源不足",
+        "能力",
+        "长期主义"
+      ],
+      "situation": "慢变量策略被外界误判为怯弱，决策者要求立刻见效。",
+      "known_then": "记载中，李牧长期练兵、优待战士，并通过避战保存力量。",
+      "options": [
+        {
+          "action": "按原策略组织边防",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "改为每次迎战",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "李牧坚持原策；被替换后，复任时要求仍按此前办法。",
+      "outcomes": [
+        {
+          "timeframe": "阶段结果",
+          "finding": "文本记替将屡败，李牧复任获许可后最终取得边防战果。",
+          "evidence_ids": [
+            "limu-conditions"
+          ]
+        },
+        {
+          "timeframe": "多年以后",
+          "finding": "后在另一轮战争中遭反间、被捕杀。",
+          "evidence_ids": [
+            "limu-political-risk"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "慢策略承受名誉与职位压力；专业能力不能消除政治脆弱性。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "需要长期训练、资源控制、情报和上级授权。"
+      ],
+      "transfer_limits": [
+        "史载兵力与战果不是现代统计；不能把一次坚持解释为对所有上级要求都应抗拒。"
+      ],
+      "evidence_ids": [
+        "limu-conditions",
+        "limu-political-risk"
+      ]
+    },
+    {
+      "id": "wangjian-resources",
+      "title": "王翦与李信：资源承诺不能只靠勇气",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "wangjian-resources",
+      "tags": [
+        "资源",
+        "执行",
+        "组织",
+        "决策",
+        "权力差"
+      ],
+      "aliases": [
+        "预算",
+        "低估成本",
+        "创业",
+        "接项目"
+      ],
+      "situation": "同一目标出现截然不同的资源估算，较低估算更讨决策者喜欢。",
+      "known_then": "两人有不同经验，王翦已有长期军功。",
+      "options": [
+        {
+          "action": "二十万人伐楚",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "要求六十万人",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "李信先以较少兵力出征失利，王翦复出坚持资源要求并稳步训练。",
+      "outcomes": [
+        {
+          "timeframe": "阶段结果",
+          "finding": "文本记李信败，王翦后来伐楚成功。",
+          "evidence_ids": [
+            "wangjian-budget",
+            "wangjian-campaign"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "争取资源会消耗信任；集中资源也引发统治者疑虑。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "经验、可证明的任务分析、难以替代的地位和资源调配权。"
+      ],
+      "transfer_limits": [
+        "不能从故事推导固定资源倍数。乞求田宅是特定君臣政治信号，不作为现代职场通用建议。"
+      ],
+      "evidence_ids": [
+        "wangjian-budget",
+        "wangjian-campaign"
+      ]
+    },
+    {
+      "id": "xiaohe-talent",
+      "title": "萧何追韩信：先明确目标，再决定是否重用",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "xiaohe-talent",
+      "tags": [
+        "组织",
+        "资源",
+        "信任",
+        "职业选择"
+      ],
+      "aliases": [
+        "招聘",
+        "招人",
+        "人才",
+        "离职",
+        "挽留"
+      ],
+      "situation": "关键人才离开，组织必须决定是否改变职位与信任安排。",
+      "known_then": "萧何与韩信有多次交谈，认为其适合争天下；汉王此前未充分认可。",
+      "options": [
+        {
+          "action": "只守汉中，不重用韩信",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "争天下，任韩信为大将",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "萧何追人并推动汉王以正式仪式任命。",
+      "outcomes": [
+        {
+          "timeframe": "即时",
+          "finding": "韩信被拜为大将，一军皆惊。",
+          "evidence_ids": [
+            "xiaohe-recruit"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "破格任命改变内部预期，承担识人错误和公平感受损的风险。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "有具体能力观察、组织目标和正式任命权。"
+      ],
+      "transfer_limits": [
+        "不将韩信后来的战绩当成当时必然已知；留人不等于任何离职者都应大幅加码。"
+      ],
+      "evidence_ids": [
+        "xiaohe-recruit"
+      ]
+    },
+    {
+      "id": "hanxin-commitment",
+      "title": "韩信：感恩、承诺与权力变化",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "hanxin-commitment",
+      "tags": [
+        "信任",
+        "承诺",
+        "权力差",
+        "联盟",
+        "关系"
+      ],
+      "aliases": [
+        "感恩",
+        "背叛",
+        "未来",
+        "韩信",
+        "蒯通"
+      ],
+      "situation": "关键贡献者相信过去的信任能维持未来安全，游说者提出另一种联盟安排。",
+      "known_then": "韩信记述汉王重用与照顾自己；对未来封地安全有自己的判断。",
+      "options": [
+        {
+          "action": "继续支持汉王",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "另立局势、三分天下",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "拒绝游说，继续为汉王作战。",
+      "outcomes": [
+        {
+          "timeframe": "战后",
+          "finding": "军队被高祖收取，封地发生变化。",
+          "evidence_ids": [
+            "hanxin-refusal"
+          ]
+        },
+        {
+          "timeframe": "多年以后",
+          "finding": "据该篇叙事，经历告反、降爵及陈豨相关事件后被杀。",
+          "evidence_ids": [
+            "hanxin-captured",
+            "hanxin-death"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "把过去恩义当成未来保障，可能忽略制度和力量关系变化。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "真实可控的兵力、政治支持、联盟可信度；文本中的谋划不保证可执行。"
+      ],
+      "transfer_limits": [
+        "不能简化成忠诚导致被杀，更不能推断若接受蒯通便必成功。现代亲密关系不等于君臣关系。"
+      ],
+      "evidence_ids": [
+        "hanxin-loyalty",
+        "hanxin-refusal",
+        "hanxin-captured",
+        "hanxin-death"
+      ]
+    },
+    {
+      "id": "lisi-remonstrance",
+      "title": "李斯谏逐客：把个人诉求转译为共同利益",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "lisi-remonstrance",
+      "tags": [
+        "职业选择",
+        "组织",
+        "信任",
+        "决策"
+      ],
+      "aliases": [
+        "沟通",
+        "提建议",
+        "说服老板"
+      ],
+      "situation": "身份类别被一刀切排除，个人需要争取决策者重新审视政策。",
+      "known_then": "李斯本人也在逐客之列，能够援引秦国用客的先例。",
+      "options": [
+        {
+          "action": "上书指出政策损及秦国利益",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "接受逐客而离开",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "用人才及竞争利益的论证劝谏。",
+      "outcomes": [
+        {
+          "timeframe": "即时",
+          "finding": "秦王撤逐客令，恢复李斯官职。",
+          "evidence_ids": [
+            "lisi-restored"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "说服须承担被忽视或触怒对方的风险，也需要足够信息与表达能力。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "接近决策者的渠道、事实例证及被听取的可能。"
+      ],
+      "transfer_limits": [
+        "一次说服成功不是个人长期安全的保证；普通人可缩小为用具体任务数据沟通。"
+      ],
+      "evidence_ids": [
+        "lisi-remonstrance",
+        "lisi-restored"
+      ]
+    },
+    {
+      "id": "lisi-compromise",
+      "title": "李斯与赵高：用短期保位换来的长期依赖",
+      "book": "shiji",
+      "module": "classics",
+      "event_group": "lisi-compromise",
+      "tags": [
+        "边界",
+        "权力差",
+        "信任",
+        "组织",
+        "决策"
+      ],
+      "aliases": [
+        "被迫站队",
+        "妥协",
+        "底线",
+        "保工作"
+      ],
+      "situation": "在不确定继承与失位压力下，与握有关键权限的人合作。",
+      "known_then": "文本记李斯在劝说下参与改诏，存在地位与生命担忧。",
+      "options": [
+        {
+          "action": "拒绝参与改诏",
+          "basis": "analyst_inferred"
+        },
+        {
+          "action": "参与改诏、立胡亥",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "参与改诏并支持胡亥。",
+      "outcomes": [
+        {
+          "timeframe": "即时",
+          "finding": "胡亥被立为二世。",
+          "evidence_ids": [
+            "lisi-enthronement"
+          ]
+        },
+        {
+          "timeframe": "后来",
+          "finding": "李斯受刑被杀，家族受牵连。",
+          "evidence_ids": [
+            "lisi-fall"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "参与后可能被共谋与秘密绑定，压缩后续退出空间。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "须评估规则边界、独立证据渠道与拒绝的现实代价。"
+      ],
+      "transfer_limits": [
+        "不是所有妥协都会导致此结果；不把违法行为作为成功策略。结局经历了多个政治事件。"
+      ],
+      "evidence_ids": [
+        "lisi-collusion",
+        "lisi-enthronement",
+        "lisi-fall"
+      ]
+    },
+    {
+      "id": "zhibo-coalition",
+      "title": "智伯与韩魏赵：单方索取会改变联盟",
+      "book": "zizhitongjian",
+      "module": "classics",
+      "event_group": "zhibo-coalition",
+      "tags": [
+        "联盟",
+        "权力差",
+        "边界",
+        "信任",
+        "组织"
+      ],
+      "aliases": [
+        "人情",
+        "合作伙伴",
+        "拒绝",
+        "讨好",
+        "强势"
+      ],
+      "situation": "强势一方持续索取，短期让步掩盖了盟友利益变化。",
+      "known_then": "智伯看到韩魏让地；谋臣则提出对方忧虑与倒戈风险。",
+      "options": [
+        {
+          "action": "继续索地与围赵",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "限制索取、重谈联盟分配",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "继续进攻，未采纳盟友将反的警告。",
+      "outcomes": [
+        {
+          "timeframe": "后来",
+          "finding": "韩魏与赵结约反击，智伯败亡。",
+          "evidence_ids": [
+            "zhibo-coalition"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "连续得利可能积累共同恐惧，把原本分散的弱方推向合作。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "需要理解他方利益、观察行动而非只看表态。"
+      ],
+      "transfer_limits": [
+        "韩魏的让步伴随军事实力、地缘与可结盟对象；现代弱方不一定能复制以退为进。"
+      ],
+      "evidence_ids": [
+        "zhibo-demand",
+        "zhibo-warning",
+        "zhibo-coalition"
+      ]
+    },
+    {
+      "id": "like-observation",
+      "title": "李克论择相：从行动与取舍识人",
+      "book": "zizhitongjian",
+      "module": "classics",
+      "event_group": "like-observation",
+      "tags": [
+        "决策",
+        "信任",
+        "组织",
+        "关系"
+      ],
+      "aliases": [
+        "识人",
+        "看人",
+        "能力判断",
+        "合伙人",
+        "选伴侣"
+      ],
+      "situation": "在多位候选者之间，比较表面功劳与日常行为。",
+      "known_then": "君主问魏成与翟璜，李克提出观察交往、给予、推荐以及困窘时的取舍。",
+      "options": [
+        {
+          "action": "围绕各自荐举功劳争论",
+          "basis": "source_explicit"
+        },
+        {
+          "action": "比较长期行为与不同处境的选择",
+          "basis": "source_explicit"
+        }
+      ],
+      "chosen_action": "李克给出观察标准，并解释为何判断文侯会选魏成。",
+      "outcomes": [
+        {
+          "timeframe": "当时叙述",
+          "finding": "李克向翟璜说明自己的判断，翟璜谢服；此段不等于后续任职效果评估。",
+          "evidence_ids": [
+            "like-selection"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "观察需要时间，信息可能受地位和资源影响；可见慷慨也可能是展示。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "可核验的行为样本、多个情境，而非单次自述。"
+      ],
+      "transfer_limits": [
+        "古代荐贤标准不能直接作为现代招聘或伴侣判断量表。不能用困境测试设计诱骗考验。"
+      ],
+      "evidence_ids": [
+        "like-selection"
+      ]
+    },
+    {
+      "id": "japan-credit-cycle",
+      "title": "日本泡沫后：收入、资产与融资可能同时承压",
+      "book": "boj-yamaguchi-2000",
+      "module": "modern",
+      "event_group": "japan-credit-cycle",
+      "tags": [
+        "周期",
+        "现金流",
+        "负债",
+        "资源"
+      ],
+      "aliases": [
+        "买房",
+        "房贷",
+        "经济下行",
+        "日本"
+      ],
+      "situation": "在资产繁荣时扩大负债，或在调整期承受融资收紧。",
+      "known_then": "繁荣参与者看到过去涨幅和可获得的信贷，但无法预知价格路径。",
+      "options": [
+        {
+          "action": "扩大杠杆以追随繁荣",
+          "basis": "analyst_inferred"
+        },
+        {
+          "action": "限制刚性支出，保留缓冲与融资替代",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "不虚构某个家庭的实际行动；本卡只记录宏观机制与可供现实评估的选项。",
+      "outcomes": [
+        {
+          "timeframe": "研究回顾",
+          "finding": "文献讨论泡沫破裂与银行资产负债表、信用供给之间的联系。",
+          "evidence_ids": [
+            "japan-credit-summary"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "工资、资产价值和融资来源可能共同暴露于一个周期，表面分散不代表风险独立。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "能清点收入、债务期限、必要支出和资产流动性。"
+      ],
+      "transfer_limits": [
+        "不由日本经历推断用户所在地区的房价或时间表；个人方案须核实当地现实信息。"
+      ],
+      "evidence_ids": [
+        "japan-credit-summary"
+      ]
+    },
+    {
+      "id": "japan-employment-ice-age",
+      "title": "日本就业冰河期：入场时机和长期转轨",
+      "book": "jilpt-154-2013",
+      "module": "modern",
+      "event_group": "japan-employment-ice-age",
+      "tags": [
+        "周期",
+        "就业",
+        "职业选择",
+        "资源",
+        "信任"
+      ],
+      "aliases": [
+        "失业",
+        "裁员",
+        "找工作",
+        "转行",
+        "毕业",
+        "日本"
+      ],
+      "situation": "毕业或转职时市场弱，短期岗位选择可能影响后续机会。",
+      "known_then": "个体当时只能看到可获得的岗位与自身条件，无法知道整个生涯结果。",
+      "options": [
+        {
+          "action": "先进入能获得收入与经验的岗位",
+          "basis": "analyst_inferred"
+        },
+        {
+          "action": "继续等待目标岗位，同时建设转轨条件",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "群体中存在多种轨迹；没有统一的“当事人选择”。",
+      "outcomes": [
+        {
+          "timeframe": "样本观察",
+          "finding": "样本中存在后续转为正规就业及再次回到非正规就业的多种经历。",
+          "evidence_ids": [
+            "japan-employment-summary"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "初始就业形式、训练与招聘通道可能产生路径依赖；名义转正可能掩盖待遇或稳定性问题。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "根据实际技能、生活支出和求职渠道安排试投、学习及支持。"
+      ],
+      "transfer_limits": [
+        "不把就业困难归为个人心性不足；不保证考证或接受低薪岗位就能翻身。样本不能直接代表当前他国劳动力市场。"
+      ],
+      "evidence_ids": [
+        "japan-employment-summary"
+      ]
+    },
+    {
+      "id": "us-2008-household",
+      "title": "美国2007–2009年衰退：住房风险与职业风险叠加",
+      "book": "fed-weinberg-2013",
+      "module": "modern",
+      "event_group": "us-2008-household",
+      "tags": [
+        "周期",
+        "现金流",
+        "负债",
+        "就业",
+        "资源"
+      ],
+      "aliases": [
+        "2008",
+        "金融危机",
+        "经济泡沫",
+        "住房",
+        "失业"
+      ],
+      "situation": "家庭同时依赖房产价值、就业收入和再融资机会。",
+      "known_then": "资产上涨时期可能看到宽松信用和住房相关就业扩张，无法掌握危机路径。",
+      "options": [
+        {
+          "action": "按繁荣收入长期承担支出",
+          "basis": "analyst_inferred"
+        },
+        {
+          "action": "检验收入下滑与再融资受阻同时发生时的承受力",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "chosen_action": "本卡不设虚构家庭，记录历史过程供压力情景比较。",
+      "outcomes": [
+        {
+          "timeframe": "宏观观察",
+          "finding": "住房与信用风险扩散，整体就业承压，随后恢复缓慢。",
+          "evidence_ids": [
+            "us-recession-summary"
+          ]
+        }
+      ],
+      "hidden_costs": [
+        {
+          "finding": "工作与房产同处一个行业或地区时，风险可能叠加；等待恢复也消耗时间与储备。",
+          "basis": "analyst_inferred"
+        }
+      ],
+      "capability_requirements": [
+        "知道固定支出、负债、岗位关联风险与替代收入来源。"
+      ],
+      "transfer_limits": [
+        "美国住房贷款与保障制度有特定性；不能根据该史例断言当下必将危机或应买卖资产。"
+      ],
+      "evidence_ids": [
+        "us-recession-summary"
+      ]
+    }
+  ]
+}
