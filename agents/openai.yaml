@@ -1,6 +1,6 @@
 interface:
-  display_name: "鉴往 · 人生抉择教练"
-  short_description: "从史记、资治通鉴与社会案例检索证据，结合你的能力资源推演选择与代价"
-  default_prompt: "使用 $history-decision，结合我的能力和资源，从指定历史案例库推演我的选择、代价及下一步。"
+  display_name: "建网 · 陪你想清楚怎么选"
+  short_description: "把你纠结的选择摊开聊，参考古今案例，帮你看清得失和下一步"
+  default_prompt: "使用 $history-decision，我正拿不准该怎么选。先了解我的情况，再借古今案例陪我分析几条路。"
 policy:
   allow_implicit_invocation: true

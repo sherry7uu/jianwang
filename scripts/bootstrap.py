@@ -15,7 +15,7 @@ import urllib.request
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / '.cache' / 'chapters'
 PARSER_VERSION = 1
-USER_AGENT = 'HistoryDecisionSkill/0.1 (https://github.com/sherry7uu/history-decision-skill)'
+USER_AGENT = 'Jianwang/0.1 (https://github.com/sherry7uu/jianwang)'
 
 
 def sha(text):
